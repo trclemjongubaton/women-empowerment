@@ -87,12 +87,13 @@ const IndexPage = () => {
             textLink={'shop now'}
             link={'/shop'}
           />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ng4IbtPYuVw?si=e-P0iIQ4aQnCzqSe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Container>
       </div>
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
+        <Hero src={'https://www.youtube.com/embed/Ng4IbtPYuVw?si=e-P0iIQ4aQnCzqSe"'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
@@ -108,6 +109,7 @@ const IndexPage = () => {
         }
       />
 
+        
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
