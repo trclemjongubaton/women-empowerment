@@ -29,8 +29,8 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
+        image={'https://tonystoneblog.files.wordpress.com/2013/01/empowered-women.jpg'}
+        title={'What is Women’s Empowerment?'}
         subtitle={'Discover Autumn Winter 2021'}
         ctaText={'shop now'}
         ctaAction={goToShop}
@@ -38,20 +38,24 @@ const IndexPage = () => {
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
-        <p> MAMA MO!
-          This is just a test if working. hehe. This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+        <p>
+          Women’s empowerment can be defined to promoting women’s sense of self-worth, their ability to determine their own choices, and their right to influence social change for themselves and others
         </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          It is closely aligned with female empowerment – a fundamental human right that’s also key to achieving a more peaceful, prosperous world.
+        </p>
+        <p>
+        In Western countries, female empowerment is often associated with specific phases of the women’s rights movement in history. This movement tends to be split into three waves, the first beginning in the 19th and early 20th century where suffrage was a key feature. The second wave of the 1960s included the sexual revolution and the role of women in society. Third wave feminism is often seen as beginning in the 1990s.
+        </p>
+        <p>
+        Women’s empowerment and promoting women’s rights have emerged as a part of a major global movement and is continuing to break new ground in recent years. Days like International Women’s Empowerment Day are also gaining momentum.
         </p>
       </div>
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Vision'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -59,7 +63,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Mission'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
