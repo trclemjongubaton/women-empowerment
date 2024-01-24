@@ -48,13 +48,13 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
+              Louis Founded in 1860, Sydney is an innovative British brand with a
               contemporary edge. We make timeless everyday luxury clothing.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
+              Clem We created some of the world's first T-shirts and spent decades
               perfecting the feel of the cotton. Today we are the only brand
               that makes T-shirts in its own factory in the UK. And we do this
               in the same factory we have occupied since 1937.
